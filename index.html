@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANDA SEM NOME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lato&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="flex justify-center">
+    <div class="header main-container">
+        <h1 id="texto" class="text-red animated"> Banda sem Nome</h1>
+        <div class="nav">
+            <nav class="menu-mobile menu-hidden">
+                <a href="#">Sobre nós</a>
+                <a href="#">Nossos shows</a>
+                <a href="#">Mídias</a>
+            </nav>
+
+            <button id="menu-button"><i class="fas fa-bars"></i></button>
+        </div>
+
+
+    </div>
+    <div>
+
+    </div>
+    <div class="container">
+        <div class="fundo-color">
+            <div class="card card-1 animate__animated animate__slideInLeft animate__duration--longest">
+                <h2 class="text-lg text-basic">BÁSICO</h2>
+                <p class="text-md text-basic text-price">R$ 1500,00</p>
+                <p class="text-md">1:30 de show</p>
+                <div class="card-footer card-footer-basic">
+                    <a href="#" class="btn-basic  py-2 px-4 rounded-full">Contrate
+                        já!</a>
+                </div>
+            </div>
+            <div class="card card-2 animate__animated animate__slideInRight animate__duration--longest">
+                <h2 class="text-lg text-inter ">MÉDIO</h2>
+                <p class="text-md text-inter text-price">R$ 2200,00</p>
+                <p class="text-md">3 horas de Show </p>
+                <div class="card-footer card-footer-md">
+                    <a href="#" class=" btn-md  py-2 px-4 rounded-full">Contrate
+                        já!</a>
+                </div>
+            </div>
+            <div class="card card-3 animate__animated animate__slideInUp animate__duration--longest">
+                <h2 class="text-lg text-premi ">PREMIUM</h2>
+                <p class="text-md text-premi text-price">R$ 3300,00</p>
+                <p class="text-md">4 horas de Show</p>
+                <div class="card-footer card-footer-premium">
+                    <a href="#" class="btn-premium py-2 px-4 rounded-full">Contrate
+                        já!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">Facebook</a>
+        <a href="https://www.instagram.com/bandasemnomeoficial1/" target="_blank">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+    <script src="./animacao.js"></script>
+    <script src="./troca de texto.js"></script>
+    <script>
+        window.onload = function () {
+            animateText();
+        }
+    </script>
+
+</body>
+
+</html>

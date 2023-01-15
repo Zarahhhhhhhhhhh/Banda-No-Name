@@ -1,0 +1,445 @@
+html,
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/*.main-container {
+    transform: translateY(100%);
+    margin-top: 0 !important;
+}*/
+
+.card {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    float: left;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid black;
+    box-shadow: 3px 2px 1px rgb(141, 141, 141);
+    opacity: 85%;
+
+}
+
+
+.card:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+    opacity: 100%;
+}
+
+.card .text-basic {
+    text-align: center;
+    color: rgb(70, 197, 155);
+    border: none;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+.card .text-inter {
+    text-align: center;
+    color: rgb(61, 184, 255);
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+
+.card .text-premi {
+    text-align: center;
+    color: rgb(104, 104, 245);
+    font-weight: bold;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+
+.card p {
+    padding: 20px;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.card .card-footer {
+    background-color: #f2f2f2;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.card-1 {
+    border-color: #dff0d8;
+    border-top: 2px solid #0000;
+
+}
+
+.card-2 {
+    border-color: #fcf8e3;
+
+
+}
+
+.card-3 {
+    border-color: #dff0d8;
+    z-index: 2;
+    position: relative;
+    margin-top: -20px;
+}
+
+
+.card a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    /*color: white;*/
+    /*background-color: #3490dc;*/
+}
+
+.card:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+}
+
+/*.card a:hover {
+    background: #686464;
+}*/
+
+.header {
+
+    background-image: linear-gradient(to right, rgb(172, 172, 172), rgb(53, 53, 53));
+    padding: 5px;
+
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+
+
+.header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+.header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+.text-chamada {
+    text-align: center;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-image: url("./IMG/WhatsApp\ Image\ 2023-01-14\ at\ 15.52.22.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+.card .card-footer {
+    margin-top: 22%;
+}
+
+/*.card .card-footer a {
+    padding: 5% 20%;
+
+}*/
+
+.footer {
+    background-image: linear-gradient(to right, rgb(247, 144, 204), rgba(236, 94, 241, 0.7));
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.fundo-color {
+    /*background-color: #cecece;*/
+    padding: 5%;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+
+}
+
+.card-1 {
+    order: 1;
+}
+
+.card-3 {
+    order: 2;
+}
+
+.card-2 {
+    order: 3;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -20px;
+    border: 2px solid #0000;
+}
+
+.text-price {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -35px;
+    border: 2px solid #0000;
+}
+
+.card p:first-of-type {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.btn-basic {
+    background-color: white;
+    border: 3px solid rgb(70, 197, 155);
+    color: rgb(70, 197, 155);
+    font-size: 1.8rem;
+    font-weight: 900;
+
+
+}
+
+.btn-md {
+    background-color: white;
+    border: 3px solid rgb(61, 184, 255);
+    color: rgb(61, 184, 255);
+    font-size: 1.8rem;
+    font-weight: 900;
+
+}
+
+.btn-premium {
+    background-color: white;
+    border: 3px solid rgb(104, 104, 245);
+    color: rgb(104, 104, 245);
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.btn-basic:hover {
+    background-color: rgb(70, 197, 155);
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-md:hover {
+    background-color: rgb(61, 184, 255);
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-premium:hover {
+    background-color: rgb(104, 104, 245);
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+
+    .card {
+        max-width: 90%;
+        max-height: none;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: none;
+        background-color: #ccc;
+        overflow: auto;
+
+    }
+
+    .main-container {
+        width: 100vw;
+        overflow-x: hidden;
+        margin: 0 auto;
+
+
+    }
+
+    .main-container * {
+        box-sizing: border-box;
+    }
+
+    .fundo-color * {
+        box-sizing: border-box;
+
+    }
+
+    .card {
+        width: 100%;
+        margin: 1rem auto;
+
+
+
+    }
+
+    .fundo-color {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        overflow-x: hidden;
+
+    }
+
+    .animate__animated {
+        animation-play-state: paused;
+        animation: none;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+        font-family: cursive;
+    }
+
+    .menu-hidden {
+        display: none;
+    }
+
+    .menu-mobile-active {
+        display: block;
+    }
+
+    #menu-button {
+        background-color: rgb(233, 227, 227);
+        /*cor de fundo*/
+        color: rgb(41, 39, 39);
+        /*cor do icone*/
+        padding: 5px;
+        /*espaçamento interno*/
+        border-radius: 5px;
+        /*borda arredondada*/
+
+
+    }
+
+    .menu-mobile {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        /* alinha o menu à direita */
+        position: absolute;
+
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        overflow: auto;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 768px) {}
